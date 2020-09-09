@@ -1,0 +1,136 @@
+* {
+  outline: none !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  color: $body-color;
+  background-color: $body-bg;
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+#app {
+  height: 100%;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse; // Prevent double borders
+}
+
+label {
+  font-weight: 700;
+}
+
+a {
+  font-size: 14px;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: $brand-primary;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: darken($brand-primary, 10%);
+}
+
+code {
+  background: #eef1f6;
+  padding: 15px 16px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 36px;
+  font-size: 15px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  a {
+    color: #337ab7;
+    cursor: pointer;
+    &:hover {
+      color: rgb(32, 160, 255);
+    }
+  }
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// 去掉webkit表单自动填写时的黄色背景
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  background-color: transparent;
+  &[disabled] {
+    cursor: not-allowed !important;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-clip: padding-box;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.text-title {
+  border-left: 4px solid #0168FF;
+  padding-left: 10px;
+  line-height: 15px;
+}
+.el-input__inner::-webkit-input-placeholder {
+  color: #999999 !important;
+  font-weight: 500;
+  font-size: 14px!important;
+}
+.el-input__inner::-ms-input-placeholder {
+  color: #999999 !important;
+  font-weight: 500;
+  font-size: 14px!important;
+}

@@ -1,0 +1,234 @@
+$black:               #000 !default;
+$black-light:         #333 !default;
+$black-light1:        #606266 !default;
+$black-light2:        #4d4d4d !default;
+$black-light3:        #141414 !default;
+$black-light5:        #677BAF !default;
+$black-light6:        #717171 !default;
+$gray:                #808080 !default;
+$gray-dark:           #292b2c !default;
+$gray-dark-light:     #666 !default;
+$gray-light:          #b5bccc !default;
+$gray-light2:         #ccc !default;
+$gray-light3:         #eef1f6 !default;
+$gray-light4:         #7D8491 !default;
+$gray-light5:         #9BAAB1 !default;
+$gray-lighter:        #e3e3e3 !default;
+$gray-lighter2:       #e9ecf3 !default;
+$gray-lighter3:       #edf5f8 !default;
+$gray-lighter4:       #f8f9fd !default;
+$gray-lighter5:       #f5f7fa !default;
+$gray-lighter6:       #98AAAE !default;
+$gray-lighter7:       #999999 !default;
+$gray-lighter8:       #C0C4CC !default;
+$gray-lighter9:       #caced9 !default;
+$gray-lighter10:      #ebf0f9  !default;
+$gray-lightest:       #F0F4F9 !default;
+$gray-lightest1:      #F3F3F3 !default;
+$gray-lightest2:      #F8F8F8 !default;
+$gray-lightest3:      #FAFAFA !default;
+$whitesmoke:          #f5f5f5 !default;
+$white:               #ffffff !default;
+
+$brand-primary:         #1572E8 !default;
+$brand-primary-alt:     #6DBDFF !default;
+$brand-primary-light:   #daefff !default;
+$brand-secondary:       #5a5a5a !default;
+$brand-secondary-alt:   #E8E8E8 !default;
+$brand-secondary-light: #F9F9F9 !default;
+$brand-info:            #4e97f4 !default;
+$brand-info-alt:        #41c1fe !default;
+$brand-success:         #0ab906 !default;
+$brand-success-alt:     #9adc46 !default;
+$brand-success-light:   #9adc46 !default;
+$brand-finish:          #8cc527 !default;
+$brand-warning:       #ff771d !default;
+$brand-warning-alt:   #f6a85d !default;
+$brand-warning-light: #FEBA1D !default;
+$brand-warning-light1: #F99D4B  !default;
+$brand-danger:        #fe3440 !default;
+$brand-red:            #A90000 !default;
+$brand-info-light:    #034da2 !default;
+$brand-info-light1:    #ecf4ff !default;
+$brand-info-light2:   #677BAF !default;
+$brand-info-light3:    #67c23a !default;
+$brand-first:         #50d166 !default;
+$brand-second:        #ffb73e !default;
+$brand-third:         #f18f1c !default;
+$brand-disease:       #f18f1c !default;
+$brand-dangerous:     #f13a30 !default;
+$brand-blue-light:    #ecf2fe !default;
+$brand-blue-light2:   #26aaf6 !default;
+$brand-blue-light3:   #005A92 !default;
+$brand-blue-light4:   #1667d9 !default;
+$brand-blue-deeper:   #0168FF !default;
+$brand-blue-lighter:  #1572E8 !default;
+$brand-blue-lighter1:  #2196f3 !default;
+$brand-indigo:        #50e3c2 !default;
+$brand-purple:        #685EBF !default;
+$brand-dark-primary:  #2861B5 !default;
+$brand-dark-primary2: #2362af !default;
+$brand-green-light:   #42c5d9 !default;
+$brand-green-light1:  #07BF96 !default;
+$brand-yellow:        #FEBA1D !default;
+$brand-water:         #95cdf0 !default;
+$brand-gray1:         #F0F3F8 !default;
+$brand-blue:          #e9f5fe !default;
+
+
+
+$body-bg:       #e3ecf3 !default;
+$body-color:    $gray-dark !default;
+
+// Borders
+$border-color:        #e4ebf4;
+$border-color-dark1:  #d0d8e6;
+$border-color-dark2:  #bdc8d2;
+$border-color-grey:   #e0e2e9;
+$border-color-grey1:  #e6e6e6;
+
+$border-radius:       3px;
+$border-width:        1px;
+$border-width-sm:     $border-width;
+$border-width-md:     2px;
+$border-width-lg:     4px;
+$border-width-xl:     6px;
+
+// Sizing
+$per-size:            10px;
+
+// Spacing
+$spacer:              5px;
+
+// Typography
+$border-width: 1px !default;
+
+$font-size-base: 1rem !default;
+
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+$small-font-size: 80% !default;
+
+$font-size-h1: 2.5rem !default;
+$font-size-h2: 2rem !default;
+$font-size-h3: 1.75rem !default;
+$font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem !default;
+$font-size-h6: 1rem !default;
+
+$headings-margin-bottom: 0.5rem !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   500 !default;
+$headings-line-height:   1.1 !default;
+$headings-color:         inherit !default;
+
+$display1-size: 6rem !default;
+$display2-size: 5.5rem !default;
+$display3-size: 4.5rem !default;
+$display4-size: 3.5rem !default;
+
+$display1-weight:     300 !default;
+$display2-weight:     300 !default;
+$display3-weight:     300 !default;
+$display4-weight:     300 !default;
+$display-line-height: $headings-line-height !default;
+
+$lead-font-size:   1.25rem !default;
+$lead-font-weight: 300 !default;
+
+$blockquote-small-color:  $gray-light2 !default;
+$blockquote-font-size:    ($font-size-base * 1.25) !default;
+$blockquote-border-color: $gray-lighter !default;
+$blockquote-border-width: .25rem !default;
+
+$hr-border-color: rgba($black,.1) !default;
+$hr-border-width: $border-width !default;
+
+$mark-padding:  .2em !default;
+$mark-bg:       $whitesmoke !default;;
+
+$list-inline-padding: 1rem !default;
+
+// Layouts
+$fixed-zindex:        1006;
+$header-height:       48px;
+$nav-height:          51px;
+$subNav-height:       46px;
+
+$z-height-0: none;
+$z-height-1: 0 1px 3px 0 rgba(0,0,0,.12);
+$z-height-2: 0 3px 8px 0 rgba(0,0,0,.2);
+$z-height-3: 0 8px 14px 0 rgba(0,0,0,.38);
+$z-height-4: 0 14px 19px 0 rgba(0,0,0,.38);
+$z-height-5: 0 20px 24px 0 rgba(0,0,0,.38);
+
+$grid-breakpoints: (
+  xxs: 0,
+  xs: 480px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+  xl: 1920px
+) !default;
+
+// Tables
+$table-cell-padding:            6px 10px !default;
+$table-sm-cell-padding:         6px 8px !default;
+
+$table-bg:                      transparent !default;
+$table-bg-accent:               rgba($black,.05) !default;
+$table-bg-hover:                rgba($black,.075) !default;
+$table-bg-active:               $table-bg-hover !default;
+
+$table-border-width:            $border-width !default;
+$table-border-color:            $border-color !default;
+
+$table-head-bg:                 $gray-lighter !default;
+$table-head-color:              $gray !default;
+
+$table-inverse-bg:              $gray-dark !default;
+$table-inverse-bg-accent:       rgba($white, .05) !default;
+$table-inverse-bg-hover:        rgba($white, .075) !default;
+$table-inverse-bg-active:       $table-inverse-bg-hover !default;
+$table-inverse-border-color:    lighten($gray-dark, 7.5%) !default;
+$table-inverse-color:           $body-bg !default;
+
+// Grid
+$grid-columns:              24 !default;
+$grid-gutter-width:         30px !default;
+// Panels
+$panel-body-padding:          15px !default;
+$panel-heading-padding:       10px 10px 10px 15px !default;
+$panel-footer-padding:        $panel-heading-padding !default;
+$panel-border-radius:         4px !default;
+$panel-margin-bottom:         10px !default;
+
+$panel-inner-border:          $border-color !default;
+$panel-footer-bg:             $white !default;
+
+$panel-default-text:          $gray-dark !default;
+$panel-default-border:        $gray-light !default;
+$panel-default-heading-bg:    $gray-lightest !default;
+
+$panel-primary-text:          $brand-primary !default;
+$panel-primary-border:        $brand-primary !default;
+$panel-primary-heading-bg:    $gray-lightest !default;
+
+$panel-success-text:          $brand-success !default;
+$panel-success-border:        $brand-success !default;
+$panel-success-heading-bg:    $gray-lightest !default;
+
+$panel-info-text:             $brand-info !default;
+$panel-info-border:           $brand-info !default;
+$panel-info-heading-bg:       $gray-lightest !default;
+
+$panel-warning-text:          #FF912A !default;
+$panel-warning-border:        #FFCC90 !default;
+$panel-warning-heading-bg:    #FFF9EE !default;
+
+$panel-danger-text:           $brand-danger !default;
+$panel-danger-border:         $brand-danger !default;
+$panel-danger-heading-bg:     $gray-lightest !default;
+// enable
+$enable-rounded:              true !default;

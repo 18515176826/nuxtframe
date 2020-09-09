@@ -1,0 +1,23 @@
+[
+  {
+    "name": "parent",
+    "path": "/parent",
+    "component": "/Users/apple/Desktop/nuxtframe/pages/parent/index.vue",
+    "chunkName": "pages/parent/index",
+    "_name": "_1d4d67dd"
+  },
+  {
+    "name": "parent-children",
+    "path": "/parent/children",
+    "component": "/Users/apple/Desktop/nuxtframe/pages/parent/children/index.vue",
+    "chunkName": "pages/parent/children/index",
+    "_name": "_81278372"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/apple/Desktop/nuxtframe/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1a09d8d2"
+  }
+]
